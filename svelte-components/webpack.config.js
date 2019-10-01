@@ -1,7 +1,8 @@
 module.exports = {
-  entry: './Greet.svelte',
+  mode: 'development',
+  entry: __dirname + '/src/Greet.svelte',
   output: {
-    path: __dirname,
+    path: __dirname + '/build',
     filename: 'web-components.js'
   },
   module: {

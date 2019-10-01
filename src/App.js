@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
+import './web-components.js';
 
-import Demo from './Demo.svelte';
-customElements.define('x-greet', Demo);
+//import Demo from './Demo.svelte';
+//customElements.define('x-greet', Demo);
 
 function App() {
   return (
     <div className="App">
-      {/* <x-greet name="Mark" /> */}
       <x-greet />
+      <x-greet name="Mark" />
     </div>
   );
 }
