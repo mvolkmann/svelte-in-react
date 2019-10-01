@@ -1,0 +1,10 @@
+{
+  "name": "svelte-components",
+  "version": "1.0.0",
+  "description": "compiles Svelte components to web component custom elements",
+  "main": "webpack.config.js",
+  "scripts": {
+    "bundle": "webpack"
+  },
+  "license": "MIT"
+}
