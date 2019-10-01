@@ -1,6 +1,9 @@
 module.exports = {
   mode: 'development',
+  // This works.
   entry: __dirname + '/src/Greet.svelte',
+  // This does not work.
+  //entry: __dirname + '/src/index.svelte',
   output: {
     path: __dirname + '/build',
     filename: 'web-components.js'
