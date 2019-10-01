@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <x-greet />
       <x-greet name="Mark" />
+      <x-counter />
     </div>
   );
 }

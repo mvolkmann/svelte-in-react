@@ -5,16 +5,20 @@
 </script>
 
 <style>
-  font-size: 24px;
-
   button {
     border: solid lightgray 1px;
     border-radius: 4px;
     padding: 10px;
   }
+
+  .counter {
+    font-size: 24px;
+  }
 </style>
 
-<button on:click={() => count--}>-</button>
-<span>{count}</span>
-<button on:click={() => count++}>+</button>
+<div class="counter">
+  <button on:click={() => count--}>-</button>
+  <span>{count}</span>
+  <button on:click={() => count++}>+</button>
+</div>
 
