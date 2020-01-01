@@ -4,10 +4,12 @@
   "description": "compiles Svelte components to web component custom elements",
   "main": "webpack.config.js",
   "scripts": {
-    "bundle": "webpack && cp build/web-components.js ../src"
+    "bundle": "webpack && cp build/web-components.js ../src",
+    "compile": "node src/compile.js ../use-custom-elements/src/custom-elements"
   },
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
+    "svelte": "^3.16.7",
     "svelte-loader": "^2.13.6",
     "webpack": "^4.41.0",
     "webpack-cli": "^3.3.9"

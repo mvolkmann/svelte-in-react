@@ -1,4 +1,4 @@
-<!--TODO: Is it a requirement for tags to contain a hyphen? -->
+<!-- It is a requirement for tags to contain a hyphen. -->
 <svelte:options tag="x-greet" />
 
 <script>

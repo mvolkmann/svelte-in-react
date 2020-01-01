@@ -4,6 +4,12 @@
   export let count = 0;
 </script>
 
+<div class="counter">
+  <button on:click={() => count--}>-</button>
+  <span>{count}</span>
+  <button on:click={() => count++}>+</button>
+</div>
+
 <style>
   button {
     border: solid lightgray 1px;
@@ -15,10 +21,3 @@
     font-size: 24px;
   }
 </style>
-
-<div class="counter">
-  <button on:click={() => count--}>-</button>
-  <span>{count}</span>
-  <button on:click={() => count++}>+</button>
-</div>
-
