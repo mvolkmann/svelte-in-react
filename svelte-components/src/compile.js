@@ -42,7 +42,7 @@ function compileToCustomElement(fileName) {
       console.warning(warning.message);
     }
   } else {
-    const path = `${outDir}/${name.toLowerCase()}.js`;
+    const path = `${outDir}/${name}.js`;
     let {code} = result.js;
 
     // Don't require "svelte" to be installed in using apps.
@@ -101,7 +101,6 @@ async function doIt() {
 
   promises.push(copySvelteInternals());
   await Promise.all(promises);
-  console.log('finished');
 }
 
 doIt();

@@ -1,4 +1,4 @@
-<svelte:options tag="take-object" />
+<svelte:options tag="x-take-object" />
 
 <script>
   export let obj = {};

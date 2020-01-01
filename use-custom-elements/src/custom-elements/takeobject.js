@@ -273,5 +273,5 @@ class Component extends SvelteElement {
 	}
 }
 
-customElements.define("take-object", Component);
+customElements.define("x-take-object", Component);
 export default Component;
