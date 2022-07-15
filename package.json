@@ -51,7 +51,7 @@
     "sass-loader": "7.2.0",
     "semver": "6.3.0",
     "style-loader": "1.0.0",
-    "svelte": "^3.12.1",
+    "svelte": "^3.49.0",
     "svelte-loader": "^2.13.6",
     "terser-webpack-plugin": "1.4.1",
     "ts-pnp": "1.1.4",
